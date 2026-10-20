@@ -100,8 +100,8 @@ add("Contributor to " + link("https://github.com/QuantumKitHub/TNRKit.jl", "TNRK
 section("Skills")
 add("<b>Programming:</b> Julia, Python, C, Mathematica.<br/><b>Scientific computing:</b> Tensor network algorithms, Loop-TNR, DMRG, many-body simulation.<br/><b>Mathematics:</b> Category theory, representation theory, conformal field theory, algebra.")
 
-section("Other projects")
-add("<b>PeerPedia Core:</b> A peer review CLI and library. " + link("https://github.com/Chenqitrg/peerpedia-core", "Repository") + "<br/><b>Euclidean Reasoning Machine:</b> An experiment with collaborating language-model agents for mathematical reasoning. " + link("https://github.com/Chenqitrg/erm", "Repository"))
+section("Other project")
+add("<b>Peerpedia:</b> A website for reading and reviewing research papers. " + link("https://peerpedia.dev/", "peerpedia.dev"))
 
 def footer(canvas, doc):
     canvas.saveState()
