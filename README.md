@@ -8,6 +8,8 @@ A responsive English academic homepage. Static HTML and CSS, with no build step,
 
 Keep the presentation understated and factual. Use plain section headings and standard publication entries with full coauthor credit. Mention collaborative software briefly, without implying sole ownership. Keep BoundaryBulkKit to a secondary code link rather than a featured project.
 
+Preserve the owner's personal perspective: a mathematical approach from ideal models and fixed-point theories towards realistic physical systems; a longer-term interest in higher-dimensional CFT; appreciation of Liang Kong's work; an undergraduate interest in Penrose and gravity; hiking, cycling, and Escher's art. Distinguish future research interests from existing work and personal influences from professional affiliations.
+
 ## Editing
 
 - `index.html`: biography, research, publications, software, education, and contact information.

@@ -66,6 +66,7 @@ story.append(HRFlowable(width="100%", thickness=.6, color=colors.HexColor("#c6d0
 
 section("Research interests")
 add("Generalized symmetries and classification of quantum phases; fusion categories and non-invertible SPT phases; tensor network renormalization and many-body simulation; algebraic formulations of conformal field theory and holographic duality.")
+add("I favor a mathematical approach, starting from ideal models and fixed-point theories. My longer-term interests include higher-dimensional conformal field theories and extending insights from these settings towards more realistic physical systems.")
 
 section("Education")
 add("<b>The Chinese University of Hong Kong</b> | PhD in Physics, in progress", "body")
@@ -102,6 +103,9 @@ add("<b>Programming:</b> Julia, Python, C, Mathematica.<br/><b>Scientific comput
 
 section("Other project")
 add("<b>Peerpedia:</b> A website for reading and reviewing research papers. " + link("https://peerpedia.dev/", "peerpedia.dev"))
+
+section("Personal interests")
+add("Hiking, cycling, and the art of M. C. Escher.")
 
 def footer(canvas, doc):
     canvas.saveState()
