@@ -4,6 +4,10 @@ Public site: https://chenqitrg.github.io/
 
 A responsive English academic homepage. Static HTML and CSS, with no build step, external font service, JavaScript dependency, or analytics.
 
+## Editorial style
+
+Keep the presentation understated and factual. Use plain section headings and standard publication entries with full coauthor credit. Mention collaborative software briefly, without implying sole ownership. Keep BoundaryBulkKit to a secondary code link rather than a featured project.
+
 ## Editing
 
 - `index.html`: biography, research, publications, software, education, and contact information.

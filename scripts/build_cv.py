@@ -95,8 +95,7 @@ publication(
 )
 
 section("Research software")
-add("<b>TNRKit.jl</b> | Collaborative Julia package for symmetry-aware tensor network renormalization, including TRG, HOTRG, and LoopTNR. " + link("https://github.com/QuantumKitHub/TNRKit.jl", "Repository"))
-add("<b>BoundaryBulkKit.jl</b> | Julia tools for Drinfeld centers, forgetful functors, and half-braidings using TensorKit.jl. " + link("https://github.com/Chenqitrg/BoundaryBulkKit.jl", "Repository"))
+add("Contributor to " + link("https://github.com/QuantumKitHub/TNRKit.jl", "TNRKit.jl") + ", a collaborative Julia package for tensor network renormalization.")
 
 section("Skills")
 add("<b>Programming:</b> Julia, Python, C, Mathematica.<br/><b>Scientific computing:</b> Tensor network algorithms, Loop-TNR, DMRG, many-body simulation.<br/><b>Mathematics:</b> Category theory, representation theory, conformal field theory, algebra.")
