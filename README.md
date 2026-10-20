@@ -15,7 +15,8 @@ Preserve the owner's personal perspective: a mathematical approach from ideal mo
 - `index.html`: biography, research, publications, software, education, and contact information.
 - `styles.css`: typography, colors, spacing, mobile layout, and print styles.
 - `assets/chenqi-meng.jpg`: portrait from the public CUHK profile, used at the owner's request.
-- `assets/escher-sky-and-water-i.jpg`: M. C. Escher's *Sky and Water I* (1938), sourced from [Escher in The Palace](https://escherinhetpaleis.nl/en/about-escher/masterpieces/sky-and-water-i) and displayed in the personal section at the owner's request. Artwork © The M.C. Escher Company; it is not covered by any license for the website code. Preserve the artist, title, source link, and rights credit.
+- `assets/escher-liberation.jpg`: M. C. Escher’s *Liberation* (1955), sourced from [Escher in The Palace](https://escherinhetpaleis.nl/en/about-escher/escher-today/liberation-print-1955).
+- `assets/escher-circle-limit-iv.jpg`: M. C. Escher’s *Circle Limit IV (Heaven and Hell)* (1960), sourced from [Escher in The Palace](https://escherinhetpaleis.nl/en/escher-today/circle-limit-iv-heaven-and-hell). Both prints are displayed in the personal section at the owner’s request. Artwork © The M.C. Escher Company; it is not covered by any license for the website code. Preserve the artist, title, source link, and rights credit.
 - `assets/chenqi-meng-cv.pdf`: current downloadable CV.
 - `scripts/build_cv.py`: editable CV content and PDF generation. Install `reportlab`, then run `python3 scripts/build_cv.py`.
 - `assets/publications.bib`: downloadable bibliography.

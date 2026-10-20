@@ -98,9 +98,10 @@ h2 { font-size: clamp(29px, 3.3vw, 39px); line-height: 1.25; letter-spacing: -.9
 #software .software-more { margin-top: 12px; }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px 90px; border-bottom: 0; }
 .about-grid .text-link { display: inline-block; margin-top: 23px; }
-.escher-art { grid-column: 1 / -1; display: grid; grid-template-columns: 300px minmax(0, 1fr); align-items: center; gap: 48px; margin: 0; padding-top: 36px; border-top: 1px solid var(--line); }
-.escher-art > a { display: block; }
-.escher-art img { width: 100%; height: auto; }
+.escher-gallery { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; padding-top: 36px; border-top: 1px solid var(--line); }
+.escher-art { margin: 0; min-width: 0; }
+.escher-art > a { display: flex; align-items: center; justify-content: center; height: 360px; margin-bottom: 25px; }
+.escher-art img { width: auto; height: auto; max-width: 100%; max-height: 360px; }
 .escher-art h3 { font-size: 26px; margin-top: 8px; }
 .escher-art cite { font-style: normal; }
 .artwork-date { font-size: 12px; color: var(--muted); margin-top: 5px; }
@@ -179,8 +180,8 @@ h2 { font-size: clamp(29px, 3.3vw, 39px); line-height: 1.25; letter-spacing: -.9
   .software-grid { grid-template-columns: 1fr; gap: 28px; margin-top: 25px; }
   .software-item p { font-size: 14px; }
   .about-grid { grid-template-columns: 1fr; gap: 25px; }
-  .escher-art { grid-template-columns: 1fr; gap: 22px; padding-top: 28px; }
-  .escher-art > a { width: min(100%, 320px); }
+  .escher-gallery { grid-template-columns: 1fr; gap: 36px; padding-top: 28px; }
+  .escher-art > a { max-width: 360px; }
   .education { padding-top: 0; }
   .education article > p:not(.education-date) { font-size: 13px; }
   .contact-inner { grid-template-columns: 1fr; gap: 26px; }
